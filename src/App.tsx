@@ -1,14 +1,42 @@
-import './App.css'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
-function App() {
+import Stories from "./pages/Stories";
+import Gallery from "./pages/Gallery";
+import MemorialVideo from "./pages/MemorialVideo";
+import Message from "./pages/Message";
+import Jokes from "./pages/Jokes";
+import Family from "./pages/Family";
 
+const App: React.FC = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello Tailwind!
-      </h1>
+      {/* Overlay */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgba(255, 255, 255, 0.6)",
+          zIndex: -1, // Place behind all content
+        }}
+      />
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Stories />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/memorial-video" element={<MemorialVideo />} />
+          <Route path="/message" element={<Message />} />
+          <Route path="/jokes" element={<Jokes />} />
+          <Route path="/family" element={<Family />} />
+        </Routes>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

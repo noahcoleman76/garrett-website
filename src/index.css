@@ -1,3 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9; /* Optional: subtle background */
+  color: #333;
+  background-image: url('/images/garrett-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; /* Ensure it fills the screen */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, .display-4, .display-5 {
+  font-family: 'Playfair Display', serif;
+  color: #dd783f; /* Accent color */
+}
+
+
+.nav-link.active {
+  font-weight: bold;
+  color: #dd783f !important;
+}
+.nav-link:hover {
+  color: #dd783f;
+}
+.nav-link {
+  transition: color 0.2s ease;
+}
+.custom-border {
+  border: 5px solid white;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+.card {
+  border: none !important;
+}

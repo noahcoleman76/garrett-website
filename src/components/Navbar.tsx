@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="navbar navbar-light bg-light shadow-sm py-3">
+        <nav className="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
             <div className="container d-flex flex-wrap justify-content-between align-items-center">
                 {/* Brand */}
                 <NavLink to="/" className="navbar-brand fw-bold fs-4" style={{ color: "#dd783f" }}>

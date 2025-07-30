@@ -52,9 +52,17 @@ const MemoryCard: React.FC<MemoryCardProps> = ({
           </div>
 
           {/* Message */}
-          <p className="card-text" style={{ whiteSpace: "pre-line" }}>
-            {message}
-          </p>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <div
+              style={{
+                whiteSpace: "pre-line",
+                textAlign: "left",            // text remains left-aligned
+              }}
+              className="card-text"
+            >
+              {message}
+            </div>
+          </div>
 
           {/* Images */}
           {images.length > 0 && (

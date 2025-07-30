@@ -8,6 +8,7 @@ import MemorialVideo from "./pages/MemorialVideo";
 import Message from "./pages/Message";
 import Jokes from "./pages/Jokes";
 import Family from "./pages/Family";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -35,6 +36,7 @@ const App: React.FC = () => {
           <Route path="/family" element={<Family />} />
         </Routes>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -17,7 +17,8 @@ const Stories: React.FC = () => {
                             marginLeft: "calc(-50vw + 50%)",
                             backgroundImage: "url('/images/garrett-surfing.jpg')",
                             backgroundSize: "cover",
-                            backgroundPosition: "center",
+                            backgroundPosition: "top center", // focus on the top
+                            paddingTop: "120px", // pushes content below navbar height
                         }}
                     >
                         {/* Gradient Overlay for Hero */}
@@ -131,17 +132,23 @@ const Stories: React.FC = () => {
                             >
                                 Stories & Memories
                             </h2>
-                            {memories.map((memory, index) => (
-                                <MemoryCard
-                                    key={index}
-                                    name={memory.name}
-                                    date={memory.date}
-                                    message={memory.message}
-                                    imageFolder={memory.folder}
-                                />
-                            ))}
+                            {[...memories]
+                                .sort(
+                                    (a, b) =>
+                                        new Date(b.date).getTime() - new Date(a.date).getTime()
+                                )
+                                .map((memory, index) => (
+                                    <MemoryCard
+                                        key={index}
+                                        name={memory.name}
+                                        date={memory.date}
+                                        message={memory.message}
+                                        imageFolder={memory.folder}
+                                    />
+                                ))}
                         </div>
                     </section>
+
                 </div>
             </div>
         </>

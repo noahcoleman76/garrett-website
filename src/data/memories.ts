@@ -29,13 +29,13 @@ Your example of hard work, goal setting, and seizing every opportunity life has 
     },
     {
         name: "Emma Thompson",
-        date: "Sept 8th, 2024",
+        date: "Sep 08, 2024",
         message: `I remember the first time I met Garrett. he sat down next to me in the caf on my first day of sophomore year and invited me to go to Waimea with his friends. we were immediate friends after that. he was the one of the best! love you Garrett🤍`,
         folder: "images/Memories/Emma-Thompson",
     },
     {
         name: "Meghan Marshall",
-        date: "Sept 8th, 2024",
+        date: "Sep 08, 2024",
         message: `Garrett and I knew each other in highschool due to swim, waterpolo, and different classes we had together. We became good buddies and the first thing that pops in my head about Garrett is how thoughtful and positive he was. I’m so grateful to have known Garrett and all the fun times we laughed and shared together. He was truly a great friend. What an amazing friend to so many. A life well lived. 🤍`,
         folder: "images/Memories/Meghan-Marshall"
     },

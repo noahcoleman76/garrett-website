@@ -38,11 +38,6 @@ const Navbar: React.FC = () => {
                             Jokes & Pick-Up Lines
                         </NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink to="/family" className="nav-link text-dark">
-                            Family
-                        </NavLink>
-                    </li>
                 </ul>
 
             </div>

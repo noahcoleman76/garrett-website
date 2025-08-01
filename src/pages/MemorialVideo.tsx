@@ -89,7 +89,7 @@ const MemorialVideo: React.FC = () => {
 
           {/* Link to Share a Message */}
           <Link
-            to="/"
+            to="https://docs.google.com/forms/d/e/1FAIpQLSc-Lc8quJE-lSdMErH7XMewjVPhMtVRtifh64sRfeqPJU1RmA/viewform"
             style={{
               display: "inline-block",
               padding: "12px 30px",

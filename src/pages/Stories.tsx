@@ -104,7 +104,7 @@ const Stories: React.FC = () => {
                                 or leave a message for him. Any pictures are appreciated.
                             </p>
                             <a
-                                href="/message"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc-Lc8quJE-lSdMErH7XMewjVPhMtVRtifh64sRfeqPJU1RmA/viewform"
                                 className="btn btn-lg text-white px-5 py-3"
                                 style={{
                                     backgroundColor: "#dd783f",

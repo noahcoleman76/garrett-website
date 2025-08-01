@@ -106,8 +106,7 @@ const Message: React.FC = () => {
               >
                 If you'd like to reach out to anyone in Garrett's immediate
                 family, please send a message here. This will reach any or all
-                members of the family including David, Chantel, Evelyn, and
-                Elder Nichols.
+                members of the family including Big Dave, Chantel, Evelyn, and Mini Dave.
               </p>
               <img
                 src="/images/garrett-family.jpg"

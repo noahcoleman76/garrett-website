@@ -9,10 +9,14 @@ import Message from "./pages/Message";
 import Jokes from "./pages/Jokes";
 import Family from "./pages/Family";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App: React.FC = () => {
   return (
     <>
+      <ScrollToTop />
+
+      
       {/* Overlay */}
       <div
         style={{

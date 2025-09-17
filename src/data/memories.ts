@@ -6,20 +6,71 @@ export interface Memory {
 }
 
 // Template for memory objects: 
-    // {
-    //     name: "Noah",
-    //     date: "Sep 07, 2024",
-    //     message: `Testing`,
-    //     folder: "images/Memories/Noah",
-    // },
+// {
+//     name: "Noah",
+//     date: "Sep 07, 2024",
+//     message: `Testing`,
+//     folder: "images/Memories/Noah",
+// },
 export const memories: Memory[] = [
-        {
+    {
         name: "Noah Coleman",
         date: "Sep 07, 2024",
         message: `Garrett, I miss you more than you know. You're my brother now and forever and my heart aches for you. I've only known you for a short amount of time but that time was the best anyone could ask for. I hate that you're gone and I look forward to the day we meet again. You've inspired me to be a better father, husband, and follower of the savior.
 ‍
 Your example of hard work, goal setting, and seizing every opportunity life has to offer has changed my life forever. I will remember all the little sounds you made and the infectious energy you always had. I miss you Garrett. I love you brother. Until we meet again.  `,
         folder: "images/Memories/Noah-Coleman",
+    },
+    {
+    name: "Drew Dalton",
+    date: "Sep 06, 2025",
+    message: `"For the year mark, I wanted to share what I wrote down on my mission when I heard Garrett had passed away
+One of my best friends from BYU-H passed away this week. It broke my heart. 
+
+Garrett was an upper classman and I was a brand new freshman. It didn’t matter to Garrett. He was a friend to all and we were immediately tight.
+
+Garrett Nicholas was a true example of Christ. His priceless smile and contagious energy was something that everyone appreciated.
+
+From early morning surf sessions to weekly evening temple trips, from landscaping to ice cream runs, Garrett always emanated the light of Christ.
+
+It didn't matter if we were jamming to new music we'd found or ""shot-gunning” La Croix.
+
+He didn't need to wear a cross or a name tag to show that he was a disciple of Jesus Christ.
+
+He lived 3 Nephi 5:13.
+
+Everyone knew Garrett loved Jesus Christ.
+
+He will be greatly missed. How thankful I am for his example.
+
+The plan of salvation is true. It is real. It is HOPE.
+
+My question of contemplation today is how can you emanate the light of Christ?
+
+How can you show that you are HIS disciple?
+
+How can you be that example?
+
+#livelikegarrett
+Cowabunga
+Show the light
+Send it
+elder dalton"`,
+    folder: "images/Memories/Drew-Dalton",
+},
+    {
+        name: "Ashley Bialorke",
+        date: "Sep 09, 2025",
+        message: `"Garrett has been on my mind extra the last few weeks! This last year, I’ve tried my best to really live like Garrett. I love that to live like Garrett means many similar things to people and many different things to people. He was such a light and still is! I’ve seen a huge change in my life and my testimony this last year as I strive to live the way he did. I’m closer to the Savior, I really take time to serve others and help anyone I come across, I’ve surfed more than ever, and so much more. Three stories come to mind today about him. I swear I could write a whole novel about all the things I’ve experienced with him. It was all epic!
+
+First, there was a day where Garrett and I went to Waimea to just swim and have some fun around sunset. There was this little boy who had no one to play with and Garrett ran into him. Obviously Garrett stopped and played with this little boy who was visiting the island and Garrett swam with him and showed him how to dig massive sand holes and ways to have fun in the water. They played for almost two hours. It was a sunset I won’t ever forget and an act of service I’ll never forget. Garrett showed that boy why he loved the beach so much and it was easy to see that this little boy loved it even more too because of him and his kindness. 
+
+Second, I met Garrett the first day of being at BYUH. There was a huge stake event and I met him outside of the church building. When we walked inside, the first painting we saw on the wall just so happened to be his phone wallpaper. I remember him saying, “Look. My wallpaper matches this painting. It’s one of my favorites, you know, cause it’s a reminder that Christ loves all His children. It brings me comfort.” He had a huge smile on his face, held up his phone, and I took a picture of him. He was stoked. I was stoked. We were all stoked. There was nothing better than being in Hawaii and making new friends who love the Savior too! 
+
+Third, I’ve had some pretty awesome experiences this last year. On January 10th, I bought a new (used) surfboard. I wanted a project. Something to fix up and keep my mind off of things. I struggled to get out and surf last winter. I went and picked up this board, had a quick look at it, and threw it in my car. I didn’t know how I was gonna surf at that moment honestly. When I got home and pulled the board out, I noticed a sticker at the bottom of the board in between the fins. I must’ve missed it when I glanced at it. This sticker is a stick figure character with a paintbrush in one hand and a green shirt on. The green shirt had some writing in it and when I leaned in to see what it said my heart sank. The writing said “Gary”. That was my nickname for Garrett. I knew it wasn’t a coincidence. What an emotional and super cool experience. It’s one of my favorite boards that I’ve ever had. I got back in the water that weekend, felt peaceful and sad all at the same time, and a thought came to mind. There was a time when I went surfing with Garrett and just felt down. I felt kinda weird about being sad and surfing at the same time. How could you be sad while surfing? I told him I was sad and he looked at me and said “You’re allowed to be sad and surf you know that right? You’ll find some peace in it, maybe receive an answer, and have fun when you shred.” I think about that all the time when I surf. I thought about that on my board with my Gary sticker in that moment on the water. I bought that board a day before his birthday. I’m so grateful for that experience! 
+
+I miss you like a banshee Gary!! Cowabunga!! "`,
+        folder: "images/Memories/Ashley-Bialorke2",
     },
     {
         name: "Jace Elton",

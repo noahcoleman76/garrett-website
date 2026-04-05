@@ -51,6 +51,11 @@ const Stories: React.FC = () => {
                             <a
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSc-Lc8quJE-lSdMErH7XMewjVPhMtVRtifh64sRfeqPJU1RmA/viewform"
                                 className="btn btn-lg text-white px-5 py-3 leave-message-btn"
+                                style={{
+                                    backgroundColor: "#dd783f",
+                                    borderColor: "#dd783f",
+                                    color: "#fff",
+                                }}
                             >
                                 <i className="bi bi-pencil-fill me-2"></i> Leave a Message
                             </a>

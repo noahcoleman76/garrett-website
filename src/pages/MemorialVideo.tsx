@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { withBase } from "../utils/basePath";
 
 const MemorialVideo: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const MemorialVideo: React.FC = () => {
           height: "60vh",
           width: "100vw",
           marginLeft: "calc(-50vw + 50%)", // ensures full-width outside container
-          backgroundImage: "url('/images/wave.png')",
+          backgroundImage: `url('${withBase("images/wave.png")}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",

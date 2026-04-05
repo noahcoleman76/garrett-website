@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { withBase } from "../utils/basePath";
 
 interface MemoryCardProps {
   name: string;
@@ -23,7 +24,7 @@ const MemoryCard: React.FC<MemoryCardProps> = ({
 
     let promises: Promise<void>[] = [];
     for (let i = 1; i <= maxImages; i++) {
-      const imagePath = `/${imageFolder}/image${i}.jpeg`;
+      const imagePath = withBase(`${imageFolder}/image${i}.jpeg`);
       const img = new Image();
       const promise = new Promise<void>((resolve) => {
         img.onload = () => {

@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { jokesAndPickups } from "../data/jokes-pickup";
+import { withBase } from "../utils/basePath";
 
 const Jokes: React.FC = () => {
   // Shuffle jokes & pick-ups once when the page loads
@@ -21,7 +22,7 @@ const Jokes: React.FC = () => {
           height: "60vh",
           width: "100vw",
           marginLeft: "calc(-50vw + 50%)",
-          backgroundImage: "url('/images/garrett-backflip.jpeg')",
+          backgroundImage: `url('${withBase("images/garrett-backflip.jpeg")}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",

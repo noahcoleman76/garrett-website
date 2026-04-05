@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f9f9f9;
   color: #333;
-  background-image: url('/images/garrett-logo.png');
+  background-image: var(--site-background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;

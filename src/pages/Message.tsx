@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withBase } from "../utils/basePath";
 
 const Message: React.FC = () => {
   // Form state
@@ -59,7 +60,7 @@ const Message: React.FC = () => {
           height: "60vh",
           width: "100vw",
           marginLeft: "calc(-50vw + 50%)",
-          backgroundImage: "url('/images/garrett-camera.jpeg')",
+          backgroundImage: `url('${withBase("images/garrett-camera.jpeg")}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",
@@ -109,7 +110,7 @@ const Message: React.FC = () => {
                 members of the family including Big Dave, Chantel, Evelyn, and Mini Dave.
               </p>
               <img
-                src="/images/garrett-family.jpg"
+                src={withBase("images/garrett-family.jpg")}
                 alt="Garrett's Family"
                 className="img-fluid rounded shadow"
               />

@@ -1,6 +1,7 @@
 import React from "react";
 import MemoryCard from "../components/MemoryCard";
 import { memories } from "../data/memories";
+import { withBase } from "../utils/basePath";
 
 const Stories: React.FC = () => {
     return (
@@ -9,14 +10,20 @@ const Stories: React.FC = () => {
                 {/* Page Content */}
                 <div>
                     {/* Hero Section */}
-                    <section className="hero-section position-relative text-white">
+<<<<<<< HEAD
+                    <section
+                        className="hero-section position-relative text-white"
+                        style={{
+                            backgroundImage: `url('${withBase("images/garrett-surfing.jpg")}')`,
+                        }}
+                    >
                         <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100" />
 
                         {/* Portrait */}
                         <div className="hero-portrait">
                             <div className="portrait-frame">
                                 <img
-                                    src="/images/garrett-portrait.jpg"
+                                    src={withBase("images/garrett-portrait.jpg")}
                                     alt="Garrett"
                                     className="portrait-img"
                                 />

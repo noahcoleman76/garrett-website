@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from "react";
+import { withBase } from "../utils/basePath";
 
 const Gallery: React.FC = () => {
   const [modalImage, setModalImage] = useState<string | null>(null);
@@ -10,7 +11,7 @@ const Gallery: React.FC = () => {
 
   // Convert imported files to an array of paths
   const allImages = Object.keys(imageImports).map((path) =>
-    path.replace("/public", "")
+    withBase(path.replace("/public/", ""))
   );
 
   // Shuffle images once when component loads
@@ -43,7 +44,7 @@ const Gallery: React.FC = () => {
           }}
         >
           <source
-            src="/images/videos/gallery-video.mp4"
+            src={withBase("images/videos/gallery-video.mp4")}
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -57,7 +58,7 @@ const Gallery: React.FC = () => {
             {/* Image on the Left */}
             <div className="col-md-5 text-center mb-4 mb-md-0">
               <img
-                src="/images/garrett-portrait.jpg"
+                src={withBase("images/garrett-portrait.jpg")}
                 alt="Garrett"
                 className="img-fluid rounded shadow"
                 style={{ maxHeight: "400px", objectFit: "cover" }}

@@ -10,7 +10,6 @@ const Stories: React.FC = () => {
                 {/* Page Content */}
                 <div>
                     {/* Hero Section */}
-<<<<<<< HEAD
                     <section
                         className="hero-section position-relative text-white"
                         style={{
